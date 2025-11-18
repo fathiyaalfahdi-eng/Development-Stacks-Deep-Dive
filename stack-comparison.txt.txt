@@ -4,3 +4,13 @@ Introduction
 
 A technology stack refers to the combination of tools, programming languages, frameworks, and technologies used to build a software application. Comparing stacks helps developers understand the strengths, weaknesses, and ideal use cases of each option. Whether you're evaluating frontend vs backend technologies, choosing between MEAN, MERN, LAMP, or comparing modern frameworks like React and Angular, stack comparison makes it easier to select the right tools based on performance, scalability, development speed, and project requirements. It ensures that the chosen stack supports the application's goals and provides long-term maintainability.
 
+| Feature     | MERN               | Spring Boot                         |
+| ----------- | ------------------ | ----------------------------------- |
+| Language    | JavaScript         | Java                                |
+| Backend     | Node + Express     | Spring Boot                         |
+| Frontend    | React              | Any (React/Angular/…)               |
+| Database    | MongoDB            | MySQL/Postgres/Mongo/…              |
+| Security    | Moderate           | Strong (Spring Security)            |
+| Performance | Great for I/O apps | Excellent for heavy enterprise apps |
+| Scalability | High               | Very high                           |
+| Best For    | Startups, SPAs     | Enterprise systems                  |
