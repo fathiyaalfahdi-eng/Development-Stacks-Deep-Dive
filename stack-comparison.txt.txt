@@ -1,0 +1,6 @@
+Stack Comparison
+
+Introduction
+
+A technology stack refers to the combination of tools, programming languages, frameworks, and technologies used to build a software application. Comparing stacks helps developers understand the strengths, weaknesses, and ideal use cases of each option. Whether you're evaluating frontend vs backend technologies, choosing between MEAN, MERN, LAMP, or comparing modern frameworks like React and Angular, stack comparison makes it easier to select the right tools based on performance, scalability, development speed, and project requirements. It ensures that the chosen stack supports the application's goals and provides long-term maintainability.
+
