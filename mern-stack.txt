@@ -1,0 +1,19 @@
+MERN Stack
+
+Overview:
+The MERN stack is a JavaScript-centric web stack composed of:
+- Frontend: React
+- Backend: Node.js with Express
+- Database: MongoDB
+
+Frontend (React):
+React provides a component-based UI library for building interactive single-page applications (SPAs). It handles client-side routing (with libraries like React Router), state management (Context, Redux, Zustand, etc.), and UI rendering.
+
+Backend (Node.js + Express):
+Node.js runs JavaScript on the server; Express is a minimal web framework for building REST or GraphQL APIs. Typical responsibilities: routing, middleware, authentication, validation, and connecting to the database.
+
+Database (MongoDB):
+MongoDB is a document-oriented NoSQL database storing JSON-like documents (BSON). It scales horizontally and maps naturally to JavaScript objects used by Node.js. Commonly used ODM: Mongoose.
+
+Typical flow:
+React (client) → HTTP/HTTPS → Express API → MongoDB

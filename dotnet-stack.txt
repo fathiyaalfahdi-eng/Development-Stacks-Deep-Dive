@@ -1,0 +1,19 @@
+DotNet Stack (ASP.NET Core)
+
+Overview:
+A modern Microsoft stack centered around ASP.NET Core for the backend and several frontend options. Typical components:
+- Frontend: Razor Pages / Blazor WebAssembly or a separate SPA (React/Angular/Vue)
+- Backend: ASP.NET Core (C#)
+- Database: SQL Server (or PostgreSQL, MySQL)
+
+Frontend (Razor/Blazor or separate SPA):
+Razor Pages and Blazor provide server-rendered or WebAssembly-based UI options within .NET. Many teams also pair ASP.NET Core APIs with a React/Angular frontend.
+
+Backend (ASP.NET Core):
+A robust, high-performance cross-platform framework for building APIs, MVC apps, gRPC services. Common responsibilities: routing, dependency injection, middleware pipeline, authentication/authorization, and EF Core for DB access.
+
+Database (SQL Server / EF Core):
+Entity Framework Core (EF Core) is the primary ORM for .NET, typically used with SQL Server in enterprise settings but also supports PostgreSQL/MySQL. Strongly-typed models and migrations are typical.
+
+Typical flow:
+Client (Razor/SPA) → HTTPS → ASP.NET Core API → SQL Server (via EF Core)

@@ -1,0 +1,19 @@
+Spring Boot Stack
+
+Overview:
+Spring Boot simplifies building Java backend services and is often paired with either server-side templates or a separate JS frontend.
+- Frontend: Thymeleaf (server-side) or React/Vue/Angular (SPA)
+- Backend: Spring Boot (Java / Kotlin)
+- Database: PostgreSQL or MySQL (or other relational DBs)
+
+Frontend (Thymeleaf or SPA):
+Thymeleaf integrates with Spring MVC for server-side rendering. Alternatively, teams use React/Angular as a separate client that consumes Spring REST or GraphQL APIs.
+
+Backend (Spring Boot):
+Spring Boot provides rapid setup for Spring-based applications (REST endpoints, security with Spring Security, data with Spring Data JPA, dependency injection). It is production-grade and widely used in enterprise systems.
+
+Database (Postgres/MySQL):
+Spring Data JPA + Hibernate is commonly used to interact with relational databases (PostgreSQL/MySQL). Migrations via Flyway or Liquibase are standard.
+
+Typical flow:
+Frontend (client) → HTTPS → Spring Boot API → PostgreSQL/MySQL
